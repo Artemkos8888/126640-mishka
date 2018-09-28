@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Artem Kostera](https://up.htmlacademy.ru/adaptive/15/user/126640).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Ефимов](https://htmlacademy.ru/profile/efiand).
 
 ---
 
