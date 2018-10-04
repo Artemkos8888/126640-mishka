@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page-header">
+        <a class="page-header__logo">
+          <img class="page-header__logo-image" src="http://placehold.it/150x100" width="86" height="35" alt="Логотип">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+          <ul class="main-nav__list header-list">
+            <li class="header-list__item">Каталог товаров</li>
+            <li class="header-list__item">Вязание на заказ</li>
+            <li class="header-list__item">Поиск по сайту</li>
+            <li class="header-list__item">Корзина: пока пуста</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="catalog-main">
+        <h1 class="catalog-main__title">Каталог товаров</h1>
+        <section class="products">
+          <ul class="products__list">
+            <li class="products__list-item">
+              <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Зайчик-попрыгайчик">
+            </li>
+            <li class="products__list-item">
+              <h2 class="products__list-title">Зайчик-попрыгайчик</h2>
+            </li>
+            <li class="products__list-info">Рост 30 см, вес 200 г</li>
+            <li class="products__list-price">1 200 руб.</li>
+          </ul>
+        </section>
+        <section class="products">
+          <ul class="products__list">
+            <li class="products__list-item">
+              <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Корзинка для белья">
+            </li>
+            <li class="products__list-item">
+              <h2 class="products__list-title">Корзинка для белья</h2>
+            </li>
+            <li class="products__list-info">Диаметр 15 см, высота 10 см</li>
+            <li class="products__list-price">690 руб.</li>
+          </ul>
+        </section>
+        <section class="products">
+          <ul class="products__list">
+            <li class="products__list-item">
+              <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Большая корзинка для игрушек">
+            </li>
+            <li class="products__list-item">
+              <h2 class="products__list-title">Большая корзинка для игрушек</h2>
+            </li>
+            <li class="products__list-info">Диаметр 30 см, высота 30 см</li>
+            <li class="products__list-price">1 500 руб.</li>
+          </ul>
+        </section>
+
+
+        <section class="production">
+          <h2 class="production__title">Процесс производства</h2>
+          <img class="production__video" src="http://placehold.it/260x150" width="260" height="150" alt="Видео">
+          <p class="production__info">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <a class="production__order" href="#">сделать заказ</a>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <ul class="page-footer__social">
+          <li class="page-footer__social-itsta">Инстаграм</li>
+          <li class="page-footer__social-fb">Фейсбук</li>
+          <li class="page-footer__social-twiter">Твитер</li>
+        </ul>
+        <ul class="page-footer__creater">
+          <li class="page-footer__creater-name">Разработано</li>
+          <li class="page-footer__creater-logo">лого</li>
+        </ul>
+      </footer>
+      <div class="modal">
+        <h2 class="modal__title">Добавить в  корзину</h2>
+        <p class="modal__info"></p>
+        <ul class="modal__list">
+          <li class="modal__list-item">s</li>
+          <li class="modal__list-item">m</li>
+          <li class="modal__list-item">l</li>
+        </ul>
+        <button class="modal__btn" type="button">добавить</button>
+      </div>
+    </div>
+  </body>
+</html>
