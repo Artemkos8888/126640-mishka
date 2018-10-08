@@ -5,104 +5,119 @@
     <title>HTML Academy: Мишка</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="page-header">
-        <a class="page-header__logo">
-          <img class="page-header__logo-image" src="http://placehold.it/150x100" width="86" height="35" alt="Логотип">
-        </a>
-        <nav class="main-nav">
-          <button class="main-nav__toggle" type="button">Открыть меню</button>
-          <ul class="main-nav__list header-list">
-            <li class="header-list__item">Каталог товаров</li>
-            <li class="header-list__item">Вязание на заказ</li>
-            <li class="header-list__item">Поиск по сайту</li>
-            <li class="header-list__item">Корзина: пока пуста</li>
-          </ul>
-        </nav>
-      </header>
-      <main class="page-main">
-        <h1 class="page-main__title">Милые штуки ручной работы для дома</h1>
-        <ul class="page-main__category page-category">
-          <li class="page-category__item">Предметы интерьера</li>
-          <li class="page-category__item">Детские игрушки</li>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/86x35" width="86" height="35" alt="Логотип">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="main-nav__list header-list">
+          <li class="header-list__item">
+            <a href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="header-list__item">Вязание на заказ</li>
         </ul>
-        <section class="weekly">
-          <h2 class="weekly__title">Вязаные корзинки</h2>
-          <h3 class="weekly__hit">товар недели</h3>
-          <p class="weekly__info">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-          <table class="weekly__features">
-            <tr>
-              <td class="weekly__features-item">Цвет:</td>
-              <td class="weekly__features-item">«Тиффани»/серый</td>
-            </tr>
-            <tr>
-              <td class="weekly__features-item">Диаметр:</td>
-              <td class="weekly__features-item">25 см</td>
-            </tr>
-            <tr>
-              <td class="weekly__features-item">Высота:</td>
-              <td class="weekly__features-item">15 см</td>
-            </tr>
-          </table>
-          <ul class="weekly__characters">
-            <li class="weekly__characters-image image-link">
-              <a class="image-link__item">
-                <img src="http://placehold.it/260x315" width="260" height="315" alt="Шарф вязанный">
-              </a>
-            </li>
-            <li class="weekly__characters-price">Цена: 990 руб.</li>
-            <li class="weekly__characters-order order">
-              <button class="order-button" type="button">заказать</button>
-            </li>
+      </nav>
+      <ul class="header-list">
+        <li class="header-list__item">
+          <a href="#"><Поиск по сайту</a>
+        </li>
+        <li class="header-list__item">
+          <a href="#">Корзина: пока пуста</a>
+        </li>
+      </ul>
+    </header>
+    <main class="page-main">
+      <h1 class="page-main__title index__title">Милые штуки ручной работы для дома</h1>
+      <ul class="page-main__category page-category">
+        <li class="page-category__item">Предметы интерьера</li>
+        <li class="page-category__item">Детские игрушки</li>
+      </ul>
+      <section class="weekly">
+        <h2 class="weekly__title">Вязаные корзинки</h2>
+        <h3 class="weekly__hit">товар недели</h3>
+        <p class="weekly__info">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        <table class="weekly__features">
+          <tr>
+            <td class="weekly__features-item">Цвет:</td>
+            <td class="weekly__features-item">«Тиффани»/серый</td>
+          </tr>
+          <tr>
+            <td class="weekly__features-item">Диаметр:</td>
+            <td class="weekly__features-item">25 см</td>
+          </tr>
+          <tr>
+            <td class="weekly__features-item">Высота:</td>
+            <td class="weekly__features-item">15 см</td>
+          </tr>
+        </table>
+        <ul class="weekly__characters">
+          <li class="weekly__characters-image image-link">
+            <a class="image-link__item">
+              <img src="http://placehold.it/260x315" width="260" height="315" alt="Шарф вязанный">
+            </a>
+          </li>
+          <li class="weekly__characters-price">Цена: 990 руб.</li>
+          <li class="weekly__characters-order order">
+            <button class="order-button" type="button">заказать</button>
+          </li>
+        </ul>
+        <div class="modal">
+          <h2 class="modal__title">Добавить в  корзину</h2>
+          <p class="modal__info"></p>
+          <ul class="modal__list">
+            <li class="modal__list-item">s</li>
+            <li class="modal__list-item">m</li>
+            <li class="modal__list-item">l</li>
           </ul>
-        </section>
-        <section class="about-us">
-          <li class="about-us__item-eco">Экологически чистые материалы</li>
-          <li class="about-us__item-skandic">Скандинавский стиль по российской цене</li>
-          <li class="about-us__item-love">Увеличивает лайки на фотографиях</li>
-          <li class="about-us__item-hand">Связано вручную с любовью и умилением</li>
-          <li class="about-us__item-rocket">Поддержка отечественного производителя</li>
-          <li class="about-us__item-gift">Поставляется в подарочной упаковке</li>
-        </section>
-        <section class="feedback">
-          <h2 class="feedback__title">Отзывы</h2>
-          <p class="feedback__info">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-          <h3 class="feedback__name">Анастасия Красильникова</h3>
-          <p class="feedback__nick">@misssssiskras</p>
-          <button class="feedback__swiper" type="button">Листалка</button>
-          <a class="feedback__sent" href="#">написать</a>
-        </section>
-      </main>
-      <footer class="page-footer">
-        <h2 class="page-footer__title">Контакты</h2>
-        <dl class="page-footer__contacts">
-            <dt class="page-footer__contacts-item">e-mail:</dt>
-            <dd class="page-footer__contacts-item">info@mimimishkashop.ru</dd>
-            <dt class="page-footer__contacts-item">адрес:</dt>
-            <dd class="page-footer__contacts-item">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</dd>
+          <button class="modal__btn" type="button">добавить</button>
+        </div>
+      </section>
+      <section class="about-us">
+        <li class="about-us__item-eco">Экологически чистые материалы</li>
+        <li class="about-us__item-skandic">Скандинавский стиль по российской цене</li>
+        <li class="about-us__item-love">Увеличивает лайки на фотографиях</li>
+        <li class="about-us__item-hand">Связано вручную с любовью и умилением</li>
+        <li class="about-us__item-rocket">Поддержка отечественного производителя</li>
+        <li class="about-us__item-gift">Поставляется в подарочной упаковке</li>
+      </section>
+      <section class="feedback">
+        <h2 class="feedback__title">Отзывы</h2>
+        <p class="feedback__info">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+        <h3 class="feedback__name">Анастасия Красильникова</h3>
+        <p class="feedback__nick">
+          <a href="#">@misssssiskras</a>
+        </p>
+        <button class="feedback__swiper-back" type="button">Назад</button>
+        <button class="feedback__swiper-forward" type="button">Вперед</button>
+        <a class="feedback__sent" href="#">написать</a>
+      </section>
+      <section class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <dl class="contacts__info">
+            <dt class="contacts__info-item">e-mail:</dt>
+            <dd class="contacts__info-item">info@mimimishkashop.ru</dd>
+            <dt class="contacts__info-item">адрес:</dt>
+            <dd class="contacts__info-item">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</dd>
         </dl>
-        <img src="http://placehold.it/320x457" width="320" height="457" alt="Карта">
-        <a class="page-footer__sent" href="#">напишите нам</a>
-        <ul class="page-footer__social">
-          <li class="page-footer__social-itsta">Инстаграм</li>
-          <li class="page-footer__social-fb">Фейсбук</li>
-          <li class="page-footer__social-twiter">Твитер</li>
-        </ul>
-        <ul class="page-footer__creater">
-          <li class="page-footer__creater-name">Разработано</li>
-          <li class="page-footer__creater-logo">лого</li>
-        </ul>
-      </footer>
-      <div class="modal">
-        <h2 class="modal__title">Добавить в  корзину</h2>
-        <p class="modal__info"></p>
-        <ul class="modal__list">
-          <li class="modal__list-item">s</li>
-          <li class="modal__list-item">m</li>
-          <li class="modal__list-item">l</li>
-        </ul>
-        <button class="modal__btn" type="button">добавить</button>
-      </div>
-    </div>
+        <div class="contacts__map" id="map">
+          <img src="http://placehold.it/320x457" width="320" height="457" alt="Карта">
+        </div>
+        <a class="contacts__sent order-button" href="#">напишите нам</a>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <ul class="page-footer__social">
+        <li class="page-footer__social-itsta">Инстаграм</li>
+        <li class="page-footer__social-fb">Фейсбук</li>
+        <li class="page-footer__social-twiter">Твитер</li>
+      </ul>
+      <ul class="page-footer__creater">
+        <li class="page-footer__creater-name">Разработано</li>
+        <li class="page-footer__creater-logo">лого</li>
+      </ul>
+    </footer>
   </body>
 </html>

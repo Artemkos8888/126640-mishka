@@ -1,0 +1,136 @@
+warning: CRLF will be replaced by LF in source/form.html.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/source/catalog.html b/source/catalog.html[m
+[1mindex 3917090..9d54e94 100644[m
+[1m--- a/source/catalog.html[m
+[1m+++ b/source/catalog.html[m
+[36m@@ -5,89 +5,95 @@[m
+     <title>HTML Academy: Мишка</title>[m
+   </head>[m
+   <body>[m
+[31m-    <div class="wrapper">[m
+[31m-      <header class="page-header">[m
+[31m-        <a class="page-header__logo">[m
+[31m-          <img class="page-header__logo-image" src="http://placehold.it/150x100" width="86" height="35" alt="Логотип">[m
+[31m-        </a>[m
+[31m-        <nav class="main-nav">[m
+[31m-          <button class="main-nav__toggle" type="button">Открыть меню</button>[m
+[31m-          <ul class="main-nav__list header-list">[m
+[31m-            <li class="header-list__item">Каталог товаров</li>[m
+[31m-            <li class="header-list__item">Вязание на заказ</li>[m
+[31m-            <li class="header-list__item">Поиск по сайту</li>[m
+[31m-            <li class="header-list__item">Корзина: пока пуста</li>[m
+[31m-          </ul>[m
+[31m-        </nav>[m
+[31m-      </header>[m
+[31m-      <main class="catalog-main">[m
+[31m-        <h1 class="catalog-main__title">Каталог товаров</h1>[m
+[31m-        <section class="products">[m
+[31m-          <ul class="products__list">[m
+[31m-            <li class="products__list-item">[m
+[31m-              <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Зайчик-попрыгайчик">[m
+[31m-            </li>[m
+[31m-            <li class="products__list-item">[m
+[31m-              <h2 class="products__list-title">Зайчик-попрыгайчик</h2>[m
+[31m-            </li>[m
+[31m-            <li class="products__list-info">Рост 30 см, вес 200 г</li>[m
+[31m-            <li class="products__list-price">1 200 руб.</li>[m
+[31m-          </ul>[m
+[31m-        </section>[m
+[31m-        <section class="products">[m
+[31m-          <ul class="products__list">[m
+[31m-            <li class="products__list-item">[m
+[31m-              <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Корзинка для белья">[m
+[31m-            </li>[m
+[31m-            <li class="products__list-item">[m
+[31m-              <h2 class="products__list-title">Корзинка для белья</h2>[m
+[31m-            </li>[m
+[31m-            <li class="products__list-info">Диаметр 15 см, высота 10 см</li>[m
+[31m-            <li class="products__list-price">690 руб.</li>[m
+[31m-          </ul>[m
+[31m-        </section>[m
+[31m-        <section class="products">[m
+[31m-          <ul class="products__list">[m
+[31m-            <li class="products__list-item">[m
+[31m-              <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Большая корзинка для игрушек">[m
+[31m-            </li>[m
+[31m-            <li class="products__list-item">[m
+[31m-              <h2 class="products__list-title">Большая корзинка для игрушек</h2>[m
+[31m-            </li>[m
+[31m-            <li class="products__list-info">Диаметр 30 см, высота 30 см</li>[m
+[31m-            <li class="products__list-price">1 500 руб.</li>[m
+[31m-          </ul>[m
+[31m-        </section>[m
+[31m-[m
+[31m-[m
+[31m-        <section class="production">[m
+[31m-          <h2 class="production__title">Процесс производства</h2>[m
+[31m-          <img class="production__video" src="http://placehold.it/260x150" width="260" height="150" alt="Видео">[m
+[31m-          <p class="production__info">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>[m
+[31m-          <a class="production__order" href="#">сделать заказ</a>[m
+[31m-        </section>[m
+[31m-      </main>[m
+[31m-      <footer class="page-footer">[m
+[31m-        <ul class="page-footer__social">[m
+[31m-          <li class="page-footer__social-itsta">Инстаграм</li>[m
+[31m-          <li class="page-footer__social-fb">Фейсбук</li>[m
+[31m-          <li class="page-footer__social-twiter">Твитер</li>[m
+[32m+[m[32m    <header class="page-header">[m
+[32m+[m[32m      <a class="page-header__logo">[m
+[32m+[m[32m        <img class="page-header__logo-image" src="http://placehold.it/86x35" width="86" height="35" alt="Логотип">[m
+[32m+[m[32m      </a>[m
+[32m+[m[32m      <nav class="main-nav">[m
+[32m+[m[32m        <button class="main-nav__toggle" type="button">[m
+[32m+[m[32m          <span class="visually-hidden">Открыть меню</span>[m
+[32m+[m[32m        </button>[m
+[32m+[m[32m        <ul class="main-nav__list header-list">[m
+[32m+[m[32m          <li class="header-list__item">[m
+[32m+[m[32m            <a href="catalog.html">Каталог товаров</a>[m
+[32m+[m[32m          </li>[m
+[32m+[m[32m          <li class="header-list__item">Вязание на заказ</li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m      </nav>[m
+[32m+[m[32m      <ul class="header-list">[m
+[32m+[m[32m        <li class="header-list__item">[m
+[32m+[m[32m          <a href="#"><Поиск по сайту</a>[m
+[32m+[m[32m        </li>[m
+[32m+[m[32m        <li class="header-list__item">[m
+[32m+[m[32m          <a href="#">Корзина: пока пуста</a>[m
+[32m+[m[32m        </li>[m
+[32m+[m[32m      </ul>[m
+[32m+[m[32m    </header>[m
+[32m+[m[32m    <main class="page-main">[m
+[32m+[m[32m      <h1 class="page-main__title catalog__title">Каталог товаров</h1>[m
+[32m+[m[32m      <section class="products">[m
+[32m+[m[32m        <ul class="products__list">[m
+[32m+[m[32m          <li class="products__list-item">[m
+[32m+[m[32m            <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Зайчик-попрыгайчик">[m
+[32m+[m[32m          </li>[m
+[32m+[m[32m          <li class="products__list-item">[m
+[32m+[m[32m            <h2 class="products__list-title">Зайчик-попрыгайчик</h2>[m
+[32m+[m[32m          </li>[m
+[32m+[m[32m          <li class="products__list-info">Рост 30 см, вес 200 г</li>[m
+[32m+[m[32m          <li class="products__list-price">1 200 руб.</li>[m
+         </ul>[m
+[31m-        <ul class="page-footer__creater">[m
+[31m-          <li class="page-footer__creater-name">Разработано</li>[m
+[31m-          <li class="page-footer__creater-logo">лого</li>[m
+[32m+[m[32m      </section>[m
+[32m+[m[32m      <section class="products">[m
+[32m+[m[32m        <ul class="products__list">[m
+[32m+[m[32m          <li class="products__list-item">[m
+[32m+[m[32m            <img class="products__list-image" src="http://placehold.it/260x195" width="260" height="195" alt="Корзинка для белья">[m
+[32m+[m[32m          </li>[m
+[32m+[m[32m          <li class="products__list-item">[m
+[32m+[m[32m            <h2 class="products__list-title">Корзинка для белья</h2>[m
+[32m+[m[32m          </li>[m
+[32m+[m[32m          <li class="products__list-info">Диаметр 15 см, высота 10 см</li>[m
+[32m+[m[32m          <li class="products__list-price">690 руб.</li>[m
+         </ul>[m
+[31m-      </footer>[m
+[31m-      <div class="modal">[m
+[31m-        <h2 class="modal__title">Добавить в  корзину</h2>[m
+[31m-        <p class="modal__info"></p>[m
+[31m-        <ul class="modal__list">[m
+[31m-          <li class="modal__list-item">s</li>[m
+[31m-          <l
